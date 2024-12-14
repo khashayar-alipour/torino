@@ -1,0 +1,118 @@
+
+.footer {
+    width: 1440px;
+    height: 290px;
+    background-color: #ffffff;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .upper {
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #00000033
+    
+  }
+  
+  .right_side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .torino {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 20px 50px;
+  }
+  
+  .torino h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .torino a {
+    font-size: 18px;
+    color: #282828;
+    text-align: right;
+    text-decoration: none;
+    margin: 5px;
+  } 
+  
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px 20px 50px;
+  }
+  
+  .services h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .services a {
+    font-size: 18px;
+    color: #282828;
+    text-align: right;
+    text-decoration: none;
+    margin: 5px;
+  } 
+  
+  .left_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:start;
+  }
+  
+  .left_side img {
+    margin: 5px 20px;
+    width: 146px;
+    height: 44px;
+  }
+  
+  .left_side p {
+    margin: 5px 20px;
+  }
+  
+  .cooperations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cooperations img {
+  
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+  }
+  
+  .lower {
+    display: block;
+    width: 95%;
+    border-top: 1px solid #00000033;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .lower p {
+    display: inline-block;
+    font-size: 16px;
+    color: #000000;
+    margin: 10px auto 0;
+  }

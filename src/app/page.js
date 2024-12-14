@@ -1,13 +1,12 @@
+import MainPage from "@/components/templates/MainPage";
 
-import AuthForm from "@/components/templates/AuthForm";
 
 export default function Home() {
 
 
-  return (
-    <div>
-      <p>کامپوننت اصلی homePage کامل شده است.</p>
-      <AuthForm/>
-    </div>
-  );
-}
+    return (
+      <div className="min-h-[1000px] m-w-[1440px]">
+        <MainPage />
+      </div>
+    );
+  }

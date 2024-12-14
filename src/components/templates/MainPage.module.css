@@ -1,0 +1,33 @@
+.container {
+    max-width: 1440px;
+    height: 74px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  
+  .container img {
+    width: 1440px;
+    height: 350px;
+  }
+  
+  .container p {
+    width: 582px;
+    height: 43px;
+    font-family: Yekan Bakh;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 43.4px;
+    text-align: right;
+    text-decoration-skip-ink: none;
+    color: #595959;
+  
+  }
+  
+  .container p span {
+      color: #28A745;
+  }
+  

@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+    width: 874px;
+height: 71px;
+padding: 15px 18px 15px 10px;
+margin: 20px;
+background: #ffffff;
+border-radius: 20px;
+border: 1px solid #00000026
+}
+
+.container p {
+    font-size: 18px;
+    color: #2C2C2C;
+}
+
+.destination, .calender, .origin {
+    width: 100px;
+    height: 39px;
+    padding: 8px ;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.destination, .calender, .origin:hover {
+    cursor: pointer;
+}
+
+.origin svg, .calender svg, .destination svg {
+    width: 200px;
+    margin-left: 8px;
+}
+
+.destination, .calender {
+    border-right: 1px solid #00000033;
+    margin: 0 5px 0 5px;
+}
+
+.container button {
+    width: 190px;
+    height: 51px;
+    background-color: #28A745;
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    font-size: 24px;
+}
+
+.container button:hover {
+    cursor: pointer;
+}
+
+
+
+

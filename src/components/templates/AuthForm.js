@@ -37,7 +37,7 @@ function SendOTPForm({ mobile, setMobile, setStep }) {
       { onSuccess: (data) => { 
         toast.success(data?.data?.message);
         toast(data?.data?.code);
-        setStep(2)
+        // setStep(2)
     }
       },
       {
